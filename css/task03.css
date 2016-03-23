@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.container,.team-introduction,.personal-introduction,.team-details{
+	padding: 20px;
+	border: 1px solid #999;
+	background: #eee;
+}
+.container{
+	overflow: hidden;
+	margin: 20px;
+}
+/*********************Team-introduction Start********************/
+.team-introduction{
+	float: left;
+	width: 160px;
+	background: #fff;
+}
+.team-introduction .team-logo{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+	background: url(../picture/eg1.jpg);
+}
+.team-introduction .team-name{
+	vertical-align: top;
+}
+/*********************Team-introduction End********************/
+/*********************Personal-introduction Start********************/
+.personal-introduction{
+	float: right;
+	width: 80px;
+	background: #fff;
+}
+.personal-logo li{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+}
+.personal-logo img{
+	width: 100%;
+	height: 100%;
+}
+/*********************Personal-introduction End********************/
+/*********************Team-details Start********************/
+.team-details{
+	margin-left: 220px;
+	margin-right: 140px;
+	background: #fff;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+/*********************Team-details End********************/

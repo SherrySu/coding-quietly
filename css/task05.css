@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+body{
+	background-color: #eee;
+}
+/********************Top Start**********************/
+.top{
+	height: 60px;
+	background-color: #333;
+}
+.baidu_logo{
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.top a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav{
+	line-height: 60px;
+	float: right;
+}
+.nav li{
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	width: 80px;
+	list-style: circle;
+}
+.nav li .selected{
+	color: #ccc;
+}
+/********************Top End**********************/
+.container{
+	margin: 20px;
+}
+.container li{
+	list-style: none;
+	margin-left: 20px;
+	margin-bottom: 12px;
+}
+.container .sidebar,.content>div{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 1px #888888;
+	padding: 20px;
+	margin-bottom: 18px;
+}
+.content{
+	margin-right: 400px;
+}
+/********************Article Start**********************/
+.article h3{
+	color: #646462;
+}
+.font_tag{
+	font-size: 13px;
+	color: #828f97;
+}
+.article_content{
+	font-size: 16px;
+	text-indent: 2em;
+}
+.article img{
+	width: 40%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/********************Article End**********************/
+/********************Img Start**********************/
+.img .list_pic li{
+	width: 120px;
+	height: 124px;
+	border: 1px solid #cecece;
+	text-align: center;
+	line-height: 31px;
+	display: inline-block;
+}
+.img .list_pic img{
+	width: 100px;
+	height: 81px;
+}
+/********************Img End**********************/
+/********************Tab Start**********************/
+.tab{
+	font-size: 14px;
+	border-collapse:collapse;
+	width: 100%;
+}
+.tab td{
+	border-right: 2px solid #cecece;
+	border-bottom: 2px solid #cecece;
+}
+.tab .tab_header td{
+	border-top: 2px solid #cecece;
+}
+.tab tr td:first-child{
+	border-left: 2px solid #cecece;
+}
+.tab .tab_header{
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+.tab .tab_content{
+}
+.tab .tab_result{
+	background-color: #ccc;
+	font-weight: bold;
+}
+/********************Tab End**********************/
+/********************Sidebar Start**********************/
+.sidebar{
+	width: 330px;
+	margin-left: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 1px #888888;
+	padding: 20px;
+	float: right;
+}
+.logo_vertical{
+	float: left;
+	width: 3px;
+	height: 38px;
+	background-color: #ccc;
+}
+.sidebar .sidebar_title{
+	width: 100%;
+}
+.sidebar h4{
+	line-height: 38px;
+	margin-left: 10px;
+}
+.sidebar_form{
+	width: 95%;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.sidebar .sidebar_form td{
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+.sidebar .sidebar_form .require{
+	text-align: right;
+	padding-right: 12px;
+}
+.sidebar .sidebar_form .prompt{
+	color: #909090;
+	font-size: 11px;
+	padding-bottom: 12px;
+	padding-top: 2px;
+}
+.sidebar .sidebar_form textarea{
+	width: 200px;
+	height: 98px;
+}
+.sidebar .submit{
+	width: 100%;
+	height: 38px;
+	color: #fff;
+	background-color: #3355d0;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 12px;
+}
+/********************Sidebar End**********************/
+/********************Bottom Start**********************/
+.bottom{
+	height: 70px;
+	background-color: #000;
+	text-align: center;
+	line-height: 70px;
+	color: #ffffe7;
+	font-size: 10px;
+}
+/********************Bottom End**********************/
